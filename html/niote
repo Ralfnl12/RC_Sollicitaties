@@ -1,0 +1,17 @@
+
+    <form id="PolForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="field3" name="lname"><br>
+        <input type="text" id="field4" name="lname"><br>
+        <input type="text" id="field5" name="lname"><br>
+        <input type="text" id="field6" name="lname"><br>
+        <input type="text" id="field7" name="lname"><br>
+        <input type="text" id="field8" name="lname"><br>
+        <input type="text" id="field9" name="lname"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="js/script.js"></script>

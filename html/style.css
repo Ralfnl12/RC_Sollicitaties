@@ -166,3 +166,12 @@ footer {
     margin-top: 5.9%;
     margin-bottom: 6%;
 }
+form {
+    justify-content: center;
+    margin-top: 1.9%;
+    margin-bottom: 1%;
+}
+.SolliForms {
+    text-decoration: none;
+    color: #fff;
+}

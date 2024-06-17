@@ -11,11 +11,11 @@ files {
     'html/index.html',
     'html/style.css',
     'html/script.js',
-    'html/sollipaginas/ambu.html',
-    'html/sollipaginas/kmar.html',
-    'html/sollipaginas/politie.html',
-    'html/sollipaginas/anwb.html',
+    'html/ambu.html',
+    'html/kmar.html',
+    'html/politie.html',
+    'html/anwb.html',
 }
 
 client_script 'client.lua'
--- server_script 'server.lua'
+server_script 'server.lua'
