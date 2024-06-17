@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RC_Sollicitaties Development Version</title>
-    <style>
-        
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>RC_sollicitaties dev version</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        // JavaScript om het dropdown-menu te openen en te sluiten
+        function toggleMenu() {
+            var menuList = document.querySelector('.menu-list');
+            menuList.style.display = menuList.style.display === 'block' ? 'none' : 'block';
         }
-        button {
-            background-color: #001b42;
-            color: white;
-            padding: 1em;
-            margin: 1em;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+    </script>
 </head>
 <body>
-    <header>
-    
-        <h1>Sollicitaties Development version</h1>
-    </header>
-    
-    <main>
-        <div class="button-container">
-            <button onclick="window.location.href='politie.html'"></button>
-                <span class="button-text">Politie</span>
-            </button>
-            <button onclick="window.location.href='ambulanc</button>e.html'"></button>
-                <span class="button-text">Ambulance</span>
-            </button>
-            <button onclick="window.location.href='</button>wegenwacht.html'"></button>
-                <span class="button-text">Wegenwacht</span>
-            </button>
-            <button onclick="window.location.href='kmar.html'">
-                <span class="button-text">kmar</span>
-            </button>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html"><img src="img/logo.png" alt="Logo"></a>
         </div>
-    </main>
+        <ul class="menu-list">  
+            <li><a href="logout.php">Werving</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <div class="content">
+            <h1>Rotterdam Roleplay</h1>
+        </div>
+    </div>
+
+    
+
+<footer>
+    <ul class="footer-links">
+        <li><a href="">Werving</a></li>
+        <h5>RC_sollicitaties - Ralfnl12</h5>
+    </ul>
+</footer>
 </body>
 </html>
